@@ -6,6 +6,7 @@ services:
     # Imagem base do container
     image: node:16
     # Nome do container para facilitar execução
+    platform: linux/amd64
     container_name: trybesmith
     # Mesmo que `docker run -t`
     tty: true
