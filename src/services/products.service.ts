@@ -11,8 +11,8 @@ class ProductService {
     this.model = new ProductModel(connection);
   }
 
-  public create(book: Product): Promise<Product> {
-    return this.model.create(book);
+  public create(product: Product): Promise<Product> {
+    return this.model.create(product);
   }
 
   public async getAll(): Promise<Product[]> {
